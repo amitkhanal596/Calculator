@@ -1,0 +1,51 @@
+button {
+    width: 35px;
+}
+
+.big-row {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+#calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.display-container {
+    width: 200px;
+    display: flex;
+    justify-content: right;
+}
+
+.button-container {
+    width: 200px;
+}
+
+.display {
+    text-align: right;
+    padding-right: 3px;
+    height: 18.5px;
+    border: 2px solid black;
+    width: 145px;
+}
+
+.row {
+    text-align: right;
+}
+
+.big-row {
+    display: flex;
+    justify-content: right;
+    gap: 4px;
+}
+
+.add {
+    height: 43px;
+}
+
